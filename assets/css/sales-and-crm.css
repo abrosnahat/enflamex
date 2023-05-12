@@ -1,0 +1,412 @@
+.intro__inner {
+    display: flex;
+    gap: 146px;
+    margin-bottom: 100px;
+}
+
+.intro__col {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 108px;
+}
+
+.intro__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2348FF;
+    border-radius: 20px;
+    padding: 15px 50px;
+}
+
+.intro__text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #223344;
+}
+
+.intro__img {
+    max-width: 100%;
+}
+
+.why-do {
+    background: #FFFFFF;
+    box-shadow: 0px 66px 150px rgba(34, 51, 68, 0.06), 0px 52.2775px 45.2206px rgba(34, 51, 68, 0.0302902), 0px 23.4908px 18.7823px rgba(34, 51, 68, 0.00452984);
+    border-radius: 70px;
+    padding: 100px;
+}
+
+.why-do__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    color: #2348FF;
+}
+
+.why-do__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 160%;
+    color: #223344;
+    margin-top: 30px;
+}
+
+.our-crm {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #2348FF;
+    margin-top: 100px;
+}
+
+.our-crm__image {
+    display: block;
+    max-width: 100%;
+    margin: 100px auto;
+}
+
+.instruments {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.instruments__title,
+.instruments__subtitle {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 160%;
+    color: #223344;
+}
+
+.instruments__subtitle {
+    color: #5D6C7A;
+}
+
+.instruments__text {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 160%;
+    color: #223344;
+    margin-top: 30px;
+}
+
+.features {
+    position: relative;
+    background: #2348FF;
+}
+
+.features__inner {
+    padding: 60px 0;
+}
+
+.features__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.features__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 60px;
+    flex-wrap: wrap;
+    margin: 70px 0;
+}
+
+.features__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.features__item-arrow {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    background: url('../image/sales-and-crm/arrow.svg') no-repeat;
+
+}
+
+.features__btn,
+.sales__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 80px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #223344;
+    text-align: center;
+    text-decoration: none;
+}
+
+.features__btn:hover,
+.sales__btn:hover {
+    background: radial-gradient(50% 100% at 50% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #FFFFFF;
+    box-shadow: 0px 23px 80px rgba(255, 255, 255, 0.38), 0px 5.13735px 17.869px rgba(255, 255, 255, 0.308783), 0px 1.52952px 5.32008px rgba(255, 255, 255, 0.0694273);
+    border-radius: 20px;
+}
+
+.advantages__inner {
+    padding: 100px 0;
+}
+
+.advantages__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    color: #223344;
+}
+
+.advantages__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    gap: 100px 30px;
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.advantages__item-text {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 160%;
+    color: #223344;
+    padding: 0;
+}
+
+ul.advantages__item-text {
+    margin-left: 40px;
+}
+
+.advantages__item-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 160%;
+    color: #223344;
+}
+
+.advantages__item-title__blue {
+    color: #2348FF;
+}
+
+.advantages__item-image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+.advantages__item-image__right {
+    margin-left: auto;
+}
+
+.sales {
+    position: relative;
+    background: #2348FF;
+
+}
+
+.sales::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../image/sales-and-crm/sales-bg.svg') no-repeat;
+    background-position: bottom center;
+    z-index: 1;
+}
+
+.sales__inner {
+    position: relative;
+    padding: 84px 0;
+    z-index: 2;
+}
+
+.sales__text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1529px) {
+    .intro__inner {
+        gap: 50px;
+    }
+
+    .intro__title {
+        font-size: 40px;
+    }
+
+    .intro__text {
+        font-size: 30px;
+    }
+
+    .intro__img {
+        max-width: 50%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro__inner {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .intro__col {
+        margin-top: 30px;
+    }
+
+    .intro__text {
+        text-align: center;
+    }
+
+    .intro__img {
+        max-width: 100%;
+    }
+
+    .why-do__title {
+        font-size: 50px;
+    }
+
+    .why-do__list {
+        font-size: 24px;
+    }
+
+    .advantages__title {
+        font-size: 40px;
+    }
+
+    .advantages__list {
+        margin-top: 40px;
+    }
+
+    .advantages__item-text {
+        font-size: 18px;
+    }
+
+    .advantages__item-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .intro__title {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .intro__text {
+        font-size: 20px;
+    }
+
+    .why-do {
+        padding: 50px 30px;
+    }
+
+    .why-do__title {
+        font-size: 30px;
+    }
+
+    .why-do__list {
+        font-size: 18px;
+    }
+
+    .our-crm {
+        font-size: 24px;
+    }
+
+    .our-crm__image {
+        margin: 40px auto;
+    }
+
+    .instruments {
+        flex-direction: column;
+    }
+
+    .instruments__title,
+    .instruments__subtitle {
+        font-size: 28px;
+    }
+
+    .instruments__text {
+        font-size: 18px;
+    }
+
+    .features__list {
+        flex-direction: column;
+    }
+
+    .features__title {
+        font-size: 40px;
+    }
+
+    .features__btn,
+    .sales__btn {
+        height: 50px;
+    }
+
+    .advantages__list {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+
+    .advantages__item-image {
+        display: none;
+    }
+
+    .advantages__title {
+        font-size: 30px;
+    }
+
+    .advantages__inner {
+        padding: 50px 0;
+    }
+
+    .sales__inner {
+        padding: 40px 0;
+    }
+
+    .sales__text {
+        font-size: 20px;
+    }
+}

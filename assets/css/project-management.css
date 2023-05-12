@@ -1,0 +1,493 @@
+.intro__inner {
+    display: flex;
+    gap: 146px;
+    margin-bottom: 100px;
+}
+
+.intro__col {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 108px;
+}
+
+.intro__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2348FF;
+    border-radius: 20px;
+    padding: 15px 50px;
+}
+
+.intro__text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #223344;
+}
+
+.intro__img {
+    max-width: 100%;
+}
+
+
+.our-project__inner {
+    background: #FFFFFF;
+    box-shadow: 0px 66px 150px rgba(34, 51, 68, 0.06), 0px 52.2775px 45.2206px rgba(34, 51, 68, 0.0302902), 0px 23.4908px 18.7823px rgba(34, 51, 68, 0.00452984);
+    border-radius: 70px;
+    padding: 100px;
+    margin-bottom: 110px;
+}
+
+.our-project__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    color: #2348FF;
+}
+
+.our-project__subtitle {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 160%;
+    color: #223344;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.our-project__text {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 160%;
+    color: #2348FF;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.our-project__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.our-project__list-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.our-project__list-text {
+    font-size: 26px;
+    line-height: 160%;
+    color: #223344;
+    padding: 0;
+}
+
+.your-initiatives {
+    background: #2348FF;
+    position: relative;
+}
+
+.your-initiatives::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../image/project-management/initiatives-bg.svg") no-repeat;
+    background-position: left bottom;
+    z-index: 1;
+}
+
+.your-initiatives__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding: 90px 0;
+    z-index: 2;
+
+}
+
+.your-initiatives__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.your-initiatives__content {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 260px;
+}
+
+
+.your-initiatives__btn,
+.work__btn {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #223344;
+    text-align: center;
+    text-decoration: none;
+}
+
+.your-initiatives__btn:hover,
+.work__btn:hover {
+    background: radial-gradient(50% 100% at 50% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #FFFFFF;
+    box-shadow: 0px 23px 80px rgba(255, 255, 255, 0.38), 0px 5.13735px 17.869px rgba(255, 255, 255, 0.308783), 0px 1.52952px 5.32008px rgba(255, 255, 255, 0.0694273);
+    border-radius: 20px;
+}
+
+.approach {
+    overflow: hidden;
+}
+
+.approach__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+.approach__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    text-align: center;
+    color: #223344;
+}
+
+.approach__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 30px;
+}
+
+.approach__item {
+    position: relative;
+    padding: 40px;
+}
+
+.approach__item-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #223344;
+    display: flex;
+    gap: 20px;
+}
+
+.approach__item-number {
+    color: #2348FF;
+}
+
+.approach__item-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: rgba(34, 51, 68, 0.7);
+}
+
+.approach__image {
+    position: absolute;
+    display: block;
+    left: -30px;
+    top: -110px;
+}
+
+.work {
+    position: relative;
+    background: #2348FF;
+}
+
+.work::before,
+.work::after {
+    content: "";
+    position: absolute;
+}
+
+.work::before {
+    width: 64px;
+    height: 108px;
+    left: 40px;
+    top: 20px;
+    background: url('../image/project-management/work-bg1.svg') no-repeat;
+}
+
+.work::after {
+    width: 68px;
+    height: 52px;
+    left: 200px;
+    bottom: 0;
+    background: url('../image/project-management/work-bg2.svg') no-repeat;
+}
+
+
+.work__image {
+    position: absolute;
+    max-width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.work__inner {
+    position: relative;
+    padding: 130px 0;
+    z-index: 2;
+}
+
+.work__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.work__list {
+    margin: 40px 0;
+    margin-left: 40px;
+}
+
+.work__item {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1529px) {
+    .intro__inner {
+        gap: 50px;
+    }
+
+    .intro__title {
+        font-size: 40px;
+    }
+
+    .intro__text {
+        font-size: 30px;
+    }
+
+    .intro__img {
+        max-width: 50%;
+        height: 100%;
+    }
+
+    .your-initiatives__title,
+    .your-initiatives__content {
+        font-size: 50px;
+    }
+
+    .approach__item {
+        position: relative;
+        padding: 0;
+    }
+
+    .work__image {
+        right: -350px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .intro__inner {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .intro__col {
+        margin-top: 30px;
+    }
+
+    .intro__text {
+        text-align: center;
+    }
+
+    .intro__img {
+        max-width: 100%;
+
+    }
+
+    .our-project__inner {
+        padding: 50px;
+    }
+
+    .our-project__title {
+        font-size: 60px;
+    }
+
+    .our-project__subtitle {
+        font-size: 20px;
+    }
+
+    .our-project__text {
+        font-size: 20px;
+    }
+
+    .our-project__list-text {
+        font-size: 20px;
+    }
+
+    .your-initiatives__content {
+        flex-direction: column;
+    }
+
+    .approach__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .approach__image {
+        left: -70px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .intro__title {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .intro__text {
+        font-size: 20px;
+    }
+
+    .our-project__inner {
+        padding: 30px;
+    }
+
+    .our-project__title {
+        font-size: 32px;
+        line-height: 120%;
+        color: #2348FF;
+    }
+
+    .our-project__subtitle {
+        font-size: 18px;
+    }
+
+    .our-project__text {
+        font-size: 18px;
+    }
+
+
+    .our-project__list-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .our-project__list-text {
+        font-size: 18px;
+    }
+
+    .our-project__list-icon svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .your-initiatives__inner {
+        align-items: center;
+        padding: 40px 0;
+        gap: 30px;
+    }
+
+    .your-initiatives__title,
+    .your-initiatives__content {
+        font-size: 30px;
+        margin-left: 0;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .your-initiatives__btn,
+    .work__btn {
+        width: 100%;
+        height: 50px;
+    }
+
+    .approach__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 140px;
+        padding-top: 100px;
+        padding-bottom: 160px;
+    }
+
+    .approach__title {
+        font-size: 40px;
+    }
+
+    .approach__list {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+
+    .approach__image {
+        display: none;
+    }
+
+    .approach__inner {
+        gap: 70px;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .work__inner {
+        padding: 50px 0;
+    }
+
+    .work__image {
+        display: none;
+    }
+
+    .work__title {
+        font-size: 40px;
+    }
+
+    .work__list {
+
+        margin-left: 20px;
+    }
+
+    .work__item {
+        font-size: 18px;
+    }
+
+    .work::before,
+    .work::after {
+        content: none;
+
+    }
+}
